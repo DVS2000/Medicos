@@ -1,0 +1,94 @@
+
+.teste {
+    background: rgb(249, 249, 249);
+    background: linear-gradient(
+        90deg,
+        rgba(249,249,249,1)0%,
+        rgba(236,236, 236,1) 1%,
+        rgba(19,204,144,1) 99%
+    );
+}
+
+.meu-card {
+    height: 60vh;
+    width: 100% !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.1s linear;
+}
+
+
+
+.meu-card div {
+    height: 60vh;
+    background: rgba(0, 0, 0, .2);
+    padding: 0px 20px 10px 20px;
+    transition: background 0.1s linear;
+    
+}
+
+
+.meu-card-news {
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.1s linear;
+}
+
+
+
+.meu-card-news div {
+    height: 60vh;
+    width: 100% !important;
+    background: rgba(0, 0, 0, .2);
+    padding: 0px 20px 10px 20px;
+    transition: background 0.1s linear;
+    
+}
+
+.meu-card div:hover {   
+    background: rgba(0, 0, 0, .4);    
+}
+
+.meu-card:hover {
+    transform: scale(1.02);
+}
+
+.meu-card-min {
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.1s linear;
+}
+
+.meu-card-min:hover {
+    transform: scale(1.02);
+}
+
+.meu-card-min div {
+    height: 40vh;
+    background: rgba(0, 0, 0, .2);
+    padding: 0px 20px 10px 20px;
+    transition: background 0.1s linear;
+}
+
+.meu-card-min div:hover {   
+    background: rgba(0, 0, 0, .4);    
+}
+
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: transparent !important;
+    border-left: 4px solid #28a745;
+    border-radius: 0px;
+    color: #28a745;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #28a745 !important;
+}
+
+a {
+    color: black !important;
+}
